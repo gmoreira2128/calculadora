@@ -36,7 +36,7 @@
             }
         });
 
-        // Fatorial
+            // Fatorial
         document.getElementById('btn-5').addEventListener('click', () => {
         const num = parseInt(document.getElementById('num-Fat').value);
         let result = 1;
@@ -46,7 +46,7 @@
         document.getElementById('result-Fat').value = result;
     });
 
-        // IMC
+            // IMC
         document.getElementById('btn-6').addEventListener('click', () => {
         const peso = parseFloat(document.getElementById('num-IMC1').value);
         const altura = parseFloat(document.getElementById('num-IMC2').value);
@@ -54,21 +54,21 @@
         document.getElementById('result-IMC').value = result.toFixed(2);
     });
 
-        // Nome-Sobrenome
+            // Nome-Sobrenome
         document.getElementById('btn-7').addEventListener('click', () => {
         const nome = document.getElementById('Nome').value;
         const sobrenome = document.getElementById('Sobrenome').value;
         document.getElementById('result-NomeSobrenome').value = nome + " " + sobrenome;
     });
 
-        // Login
+            // Login
         document.getElementById('btn-8').addEventListener('click', () => {
         const email = document.getElementById('login').value;
         const password = document.getElementById('password').value;
         alert(`Login realizado com Email: ${email} e Senha: ${password}`);
     });
 
-        // Mostrar imagem
+            // Mostrar imagem
         document.getElementById("btn-9").addEventListener('click', MudaImg);
         function MudaImg(){
         let ExibeImg = document.getElementById('respostas9');
